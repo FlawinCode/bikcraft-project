@@ -1,0 +1,19 @@
+.nav-list {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+}
+
+.nav-link {
+  font-family: var(--font-2);
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.78;
+  color: var(--w);
+  text-decoration: none;
+  transition: border-bottom 0.3s ease;
+}
+
+.nav-link:hover {
+  border-bottom: solid var(--w) 2px;
+}
