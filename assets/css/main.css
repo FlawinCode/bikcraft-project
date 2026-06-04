@@ -2,4 +2,8 @@
 @import "layout.css";
 @import "modules/nav.css";
 @import "modules/header.css";
+@import "modules/bikes.css";
+@import "modules/tech.css";
+@import "modules/intro.css";
+@import "modules/partners.css";
 @import "state.css";

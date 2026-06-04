@@ -1,0 +1,56 @@
+.bikes-section {
+  background-color: var(--w);
+  margin-top: 12.5rem;
+}
+
+.bikes-title {
+  max-width: 1160px;
+  margin: auto;
+  font-size: 4rem;
+  font-family: var(--font-2);
+  font-weight: 600;
+  line-height: 1.125;
+  color: var(--c11);
+}
+
+.bikes-title span {
+  color: var(--p1);
+}
+
+.bikes-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.bikes-item-img {
+  display: block;
+  max-width: 28.75rem;
+}
+
+.bikes-item-title {
+  color: var(--c11);
+  font-size: 2rem;
+  line-height: 1.25;
+  font-family: var(--font-2);
+  font-weight: 500;
+  padding-block: 1rem 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.bikes-item-title::before {
+  content: url(/assets/img/Rectangle\ 35.png);
+  display: block;
+  line-height: 0;
+}
+
+.bikes-item-price {
+  font-family: var(--font-1);
+  font-size: 1.125rem;
+  line-height: 1.33;
+  font-weight: 400;
+  color: var(--c8);
+}
