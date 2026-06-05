@@ -4,8 +4,6 @@
 }
 
 .bikes-title {
-  max-width: 1160px;
-  margin: auto;
   font-size: 4rem;
   font-family: var(--font-2);
   font-weight: 600;

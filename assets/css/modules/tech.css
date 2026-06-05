@@ -1,7 +1,7 @@
 .tech-section {
   display: flex;
   align-items: center;
-  margin: 200px auto 0;
+  margin-top: 200px;
   gap: 60px;
   background-color: var(--c11);
   padding-inline: 13.75rem;
