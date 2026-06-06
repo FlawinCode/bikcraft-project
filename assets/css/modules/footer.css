@@ -1,0 +1,110 @@
+.footer {
+  background-color: var(--c12);
+  padding: 3.75rem 3.75rem 0 3.75rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px;
+
+}
+
+.footer-contact-title {
+  font-family: var(--font-1);
+  color: var(--w);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.015em;
+}
+
+.footer-contact-link {
+  color: var(--c5);
+  font-family: var(--font-1);
+  font-size: 1.125rem;
+  text-decoration: none;
+  letter-spacing: 0.015em;
+}
+
+.footer-contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: .625rem;
+  margin-top: 2rem;
+}
+
+.footer-contact-address {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.footer-contact-address p {
+  color: var(--c5);
+  font-family: var(--font-1);
+  font-style: normal;
+  font-size: 1.125rem;
+  letter-spacing: 0.015em;
+  
+}
+
+.footer-social {
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.footer-social-link {
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-nav-title {
+  color: var(--w);
+  text-transform: uppercase;
+  font-family: var(--font-1);
+  font-weight: 500;
+  font-size: 1.5rem;
+  letter-spacing: 0.015em;
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-nav-item {
+}
+
+.footer-nav-link {
+  font-family: var(--font-2);
+  text-decoration: none;
+  color: var(--c5);
+  font-size: 1.125rem;
+  letter-spacing: 0.015em;
+}
+
+.footer-copy {
+  padding-bottom: 20px;
+}
+
+.footer-copy-text {
+  color: var(--c5);
+  font-size: 1.125rem;
+  font-family: var(--font-1);
+  letter-spacing: 0.015em;
+}

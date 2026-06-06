@@ -1,0 +1,125 @@
+.insurance-section {
+  background-color: var(--c11);
+  padding-block: 9.375rem;
+}
+
+.insurance-title {
+  font-size: 4rem;
+  font-family: var(--font-2);
+  font-weight: 600;
+  color: var(--w);
+}
+
+.insurance-title span {
+  color: var(--p1);
+}
+
+.insurance-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 5rem;
+  align-items: start;
+}
+
+.insurance-card {
+  background-color: var(--c12);
+  border-radius: 0.5rem;
+  padding: 3.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.insurance-card--featured .insurance-card-name {
+  color: var(--p1);
+}
+
+.insurance-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.insurance-card-name {
+  font-family: var(--font-2);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--c6);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.insurance-card-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.insurance-card-price-value {
+  font-family: var(--font-2);
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--w);
+  white-space: nowrap;
+}
+
+.insurance-card-price-period {
+  font-family: var(--font-1);
+  font-size: 0.875rem;
+  color: var(--c5);
+}
+
+.insurance-card-features {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.insurance-card-feature {
+  font-family: var(--font-1);
+  font-size: 1rem;
+  color: var(--c2);
+  padding-left: 1.75rem;
+  position: relative;
+}
+
+.insurance-card-feature::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--p1);
+  font-weight: 700;
+}
+
+.insurance-card-btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  font-family: var(--font-2);
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  text-align: center;
+  background-color: var(--c10);
+  color: var(--w);
+  border-radius: 0.25rem;
+  transition: background-color 0.2s;
+  width: fit-content;
+}
+
+.insurance-card-btn:hover {
+  background-color: var(--c5);
+}
+
+.insurance-card-btn--featured {
+  background-color: var(--p1);
+  color: var(--c12);
+}
+
+.insurance-card-btn--featured:hover {
+  background-color: #e6a800;
+  color: var(--c12);
+}
