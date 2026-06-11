@@ -19,7 +19,29 @@
   height: 100%;
 }
 
-.l-testimonial { 
+.l-testimonial {
   display: flex;
+}
+
+@media (max-width: 800px) {
+  .l-container {
+    padding-inline: 1.5rem;
+  }
+
+  .l-testimonial {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .l-header {
+    height: auto;
+  }
+
+  .l-header .l-container {
+    flex-direction: column;
+    gap: 1rem;
+    padding-block: 1.25rem;
+  }
 }
 

@@ -52,3 +52,31 @@
   font-weight: 400;
   color: var(--c8);
 }
+
+@media (max-width: 800px) {
+  .bikes-section {
+    margin-top: 5rem;
+  }
+
+  .bikes-title {
+    font-size: 3rem;
+  }
+
+  .bikes-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .bikes-item-img {
+    width: 100%;
+    max-width: 28.75rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .bikes-title {
+    font-size: 2.25rem;
+  }
+}

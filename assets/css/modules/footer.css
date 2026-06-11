@@ -108,3 +108,31 @@
   font-family: var(--font-1);
   letter-spacing: 0.015em;
 }
+
+@media (max-width: 800px) {
+  .footer {
+    padding: 2.5rem 0 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .footer-contact {
+    padding-bottom: 0;
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
+
+  .footer-copy-text {
+    text-align: center;
+  }
+}

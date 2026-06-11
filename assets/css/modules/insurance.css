@@ -123,3 +123,32 @@
   background-color: #e6a800;
   color: var(--c12);
 }
+
+@media (max-width: 800px) {
+  .insurance-section {
+    padding-block: 5rem;
+  }
+
+  .insurance-title {
+    font-size: 3rem;
+  }
+
+  .insurance-list {
+    grid-template-columns: 1fr;
+    margin-top: 3rem;
+  }
+
+  .insurance-card {
+    padding: 2.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .insurance-title {
+    font-size: 2.25rem;
+  }
+
+  .insurance-card {
+    padding: 2rem 1.5rem;
+  }
+}

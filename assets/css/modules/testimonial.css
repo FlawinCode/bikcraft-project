@@ -20,3 +20,28 @@
   font-weight: 500;
   color: var(--p4);
 }
+
+@media (max-width: 800px) {
+  .testimonial-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .testimonial-text {
+    padding: 4rem 1.5rem;
+  }
+
+  .testimonial-quote-text {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonial-quote-text {
+    font-size: 1.5rem;
+  }
+
+  .testimonial-author {
+    font-size: 1.25rem;
+  }
+}
