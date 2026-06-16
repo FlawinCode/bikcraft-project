@@ -1,0 +1,24 @@
+.bikes-header {
+  background-color: var(--c11);
+  padding-block: 3.75rem;
+}
+
+.bikes-header-tag {
+  font-family: var(--font-1);
+  color: var(--c5);
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.33;
+}
+
+.bikes-header-title {
+  font-family: var(--font-2);
+  font-size: 4rem;
+  color: var(--w);
+  font-weight: 600;
+  line-height: 1.12;
+}
+
+.bikes-header-title span {
+  color: var(--p1);
+}

@@ -1,13 +1,16 @@
 .tech-section {
-  display: flex;
-  align-items: center;
   margin-top: 200px;
-  gap: 60px;
   background-color: var(--c11);
-  padding-inline: 13.75rem;
   padding-block: 5rem;
   position: relative;
   height: 960px;
+}
+
+.tech-section .l-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  height: 100%;
 }
 
 .tech-content {
@@ -111,13 +114,15 @@
 
 @media (max-width: 800px) {
   .tech-section {
-    flex-direction: column;
-    align-items: flex-start;
     height: auto;
     margin-top: 5rem;
-    gap: 3rem;
-    padding-inline: 1.5rem;
     padding-block: 4rem;
+  }
+
+  .tech-section .l-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
   }
 
   .tech-content {

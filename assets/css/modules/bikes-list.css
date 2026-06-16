@@ -1,0 +1,143 @@
+.bikes-section {
+  display: flex;
+  flex-direction: column;
+  padding-block: 7.5rem;
+}
+
+.bikes-list:nth-child(2) {
+  margin-top: 60px;
+  background-color: var(--c12);
+  margin-left: 27rem;
+}
+
+.bikes-item {
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+}
+
+.bikes-item--alt {
+  margin-top: 3.75rem;
+}
+
+.bikes-item-featured {
+  display: flex;
+  gap: 170px;
+  justify-content: center;
+  padding-block: 60px;
+}
+
+.bikes-item-featured-img {
+  position: relative;
+}
+
+.bikes-item-img {
+  position: relative;
+}
+
+.bikes-item-img img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
+
+.bikes-item-featured-img img {
+  position: absolute;
+  margin-left: -27rem;
+  display: block;
+  top: -8px;
+}
+
+.bikes-item-price {
+  background-color: var(--c12);
+  color: var(--w);
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
+  border-radius: 5px;
+  position: absolute;
+  right: 0;
+  top: 1.875rem;
+  font-family: var(--font-1);
+}
+
+.bikes-item-featured-price {
+  background-color: var(--c12);
+  color: var(--w);
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
+  border-radius: 5px;
+  position: absolute;
+  right: -130px;
+  top: 1.875rem;
+  font-family: var(--font-1);
+}
+
+.bikes-item-title {
+  font-family: var(--font-2);
+  font-size: 2.25rem;
+  color: var(--c11);
+  font-weight: 600;
+  line-height: 1.11;
+}
+
+.bikes-item-featured .bikes-item-title {
+  color: var(--w);
+}
+
+.bikes-item-desc {
+  font-family: var(--font-1);
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: var(--c8);
+  line-height: 1.33;
+  width: 45ch;
+  padding-top: 1.25rem;
+}
+
+.bikes-item-featured .bikes-item-desc {
+  color: var(--c5);
+}
+
+.bikes-item-details {
+  display: flex;
+  gap: 10.375rem;
+  padding-top: 2rem;
+}
+
+.bikes-item-features {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+}
+
+.bikes-item-features li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: var(--font-2);
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--c8);
+  line-height: 1.11;
+}
+
+.bikes-item-featured .bikes-item-features li {
+  color: var(--c5);
+}
+
+.bikes-item-btn {
+  display: flex;
+  gap: 10px;
+  font-family: var(--font-2);
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: var(--p1);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  align-self: flex-end;
+}
+
+.bikes-item-btn::after {
+  content: url(/assets/img/seta.svg);
+}
